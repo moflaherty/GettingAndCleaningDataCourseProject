@@ -1,7 +1,6 @@
 README.md
 =========
-Author: Michael O'Flaherty (michael@oflaherty.com)
-Create date: 6/18/2014
+Author: Michael O'Flaherty (michael@oflaherty.com) Create date: 6/18/2014
 
 This read me file containts the steps needed to take in order to generate the data required for the Getting and Cleaning Data Course Project. The details of this assignment can be found here: [submission instructions](https://class.coursera.org/getdata-004/human_grading/view/courses/972137/assessments/3/submissions).
 
@@ -31,3 +30,6 @@ One package that was used in this script that needs loaded is called "data.table
 
 ##Step 4
 Run the script. If there are no errors, a file called "tidyData.txt" will be created in the data folder.
+
+##Step 5
+If you want to read this data back into R, you can use this code: tidyData <- read.table("data\\tidyData.txt")

@@ -73,7 +73,8 @@ The tidy dataset contains an average for each of the 64 variables that were used
 Note: all fields will contain values (non-nullable/no NA's.)
 
 #####Fields
-**Column** | **Data Type** | **Source** 
+**Column**   | **Data Type** | **Source** 
+------------ | ------------- | -------------
 SubjectId | Numeric | subject_train.txt / subject_test.txt. The source file only contained one column which is the subject identifier.
 ActivityId | Numeric |  activity_labels.txt. Column one is the identifier field. Allowable values are 1 through 6 and you can see the Id/Descriptions defined in the Activity column definition for their definitions.
 Activity | Factor |  This factor is created from the activity_labels.txt column two description field. The original descriptions were in all caps; the tidy dataset has proper-case versions of these descriptions. Valid values (Id-Description) are: 1-Walking, 2-WalkingUpstairs, 3-WalkingDownstairs, 4-Sitting, 5-Standing, and 6-Laying.

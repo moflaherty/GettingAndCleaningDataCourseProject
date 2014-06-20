@@ -21,7 +21,7 @@
 #                 and each subject. 
 #
 # Note:        It is recommended you read the file README.md for
-#              proper use of this script.
+#              proper use of this script. 
 # =============================================================
 
 # =============================================================

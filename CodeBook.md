@@ -59,6 +59,8 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 ####TidyData.txt
 **TidyData.txt** can be loaded into R or RStudio using this command: `tidyData <- read.table("data\\tidyData.txt")`. The dataset is created by merging these files into a single dataset first:
 
+**File**   | **Description** 
+------------ | ------------- | -------------
 activity_labels.txt | Contains ids and descriptions of all activities in the system. There are 6 activities defined and they are detailed in the next section.
 features.txt | Contains ids and descriptions of all features. There are 561 different features, but for the dataset, we are only interested in the mean and standard deviation columns which contains 64 variables. They are defined in the next section. There is a document called **features_info.txt** in the source zip that provides additional information about these individual features.
 subject_train.txt / subject_test.txt | These files contain the subject ids from the train and test datasets. These datasets were combined when creating the tidy dataset.

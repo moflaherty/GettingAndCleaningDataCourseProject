@@ -1,6 +1,7 @@
 ###README.md
 =========
 Author: Michael O'Flaherty (michael@oflaherty.com)
+
 Create date: 6/18/2014
 
 This read me file containts the steps needed to take in order to generate the data required for the Getting and Cleaning Data Course Project. The details of this assignment can be found here: [submission instructions](https://class.coursera.org/getdata-004/human_grading/view/courses/972137/assessments/3/submissions).

@@ -78,67 +78,67 @@ Note: all fields will contain values (non-nullable/no NA's.)
 SubjectId | Numeric | subject_train.txt / subject_test.txt. The source file only contained one column which is the subject identifier.
 ActivityId | Numeric |  activity_labels.txt. Column one is the identifier field. Allowable values are 1 through 6 and you can see the Id/Descriptions defined in the Activity column definition for their definitions.
 Activity | Factor |  This factor is created from the activity_labels.txt column two description field. The original descriptions were in all caps; the tidy dataset has proper-case versions of these descriptions. Valid values (Id-Description) are: 1-Walking, 2-WalkingUpstairs, 3-WalkingDownstairs, 4-Sitting, 5-Standing, and 6-Laying.
-tBodyAccMeanX | Numeric | tBodyAcc-mean()-X
-tBodyAccMeanY | Numeric | tBodyAcc-mean()-Y
-tBodyAccMeanZ | Numeric | tBodyAcc-mean()-Z
-tBodyAccStdX | Numeric | tBodyAcc-std()-X
-tBodyAccStdY | Numeric | tBodyAcc-std()-Y
-tBodyAccStdZ | Numeric | tBodyAcc-std()-Z
-tGravityAccMeanX | Numeric | tGravityAcc-mean()-X
-tGravityAccMeanY | Numeric | tGravityAcc-mean()-Y
-tGravityAccMeanZ | Numeric | tGravityAcc-mean()-Z
-tGravityAccStdX | Numeric | tGravityAcc-std()-X
-tGravityAccStdY | Numeric | tGravityAcc-std()-Y
-tGravityAccStdZ | Numeric | tGravityAcc-std()-Z
-tBodyAccJerkMeanX | Numeric | tBodyAccJerk-mean()-X
-tBodyAccJerkMeanY | Numeric | tBodyAccJerk-mean()-Y
-tBodyAccJerkMeanZ | Numeric | tBodyAccJerk-mean()-Z
-tBodyAccJerkStdX | Numeric | tBodyAccJerk-std()-X
-tBodyAccJerkStdY | Numeric | tBodyAccJerk-std()-Y
-tBodyAccJerkStdZ | Numeric | tBodyAccJerk-std()-Z
-tBodyGyroMeanX | Numeric | tBodyGyro-mean()-X
-tBodyGyroMeanY | Numeric | tBodyGyro-mean()-Y
-tBodyGyroMeanZ | Numeric | tBodyGyro-mean()-Z
-tBodyGyroStdX | Numeric | tBodyGyro-std()-X
-tBodyGyroStdY | Numeric | tBodyGyro-std()-Y
-tBodyGyroStdZ | Numeric | tBodyGyro-std()-Z
-tBodyGyroJerkMeanX | Numeric | tBodyGyroJerk-mean()-X
-tBodyGyroJerkMeanY | Numeric | tBodyGyroJerk-mean()-Y
-tBodyGyroJerkMeanZ | Numeric | tBodyGyroJerk-mean()-Z
-tBodyGyroJerkStdX | Numeric | tBodyGyroJerk-std()-X
-tBodyGyroJerkStdY | Numeric | tBodyGyroJerk-std()-Y
-tBodyGyroJerkStdZ | Numeric | tBodyGyroJerk-std()-Z
-tBodyAccMagMean | Numeric | tBodyAccMag-mean()
-tGravityAccMagMean | Numeric | tGravityAccMag-mean()
-tBodyAccJerkMagMean | Numeric | tBodyAccJerkMag-mean()
-tBodyGyroMagMean | Numeric | tBodyGyroMag-mean()
-tBodyGyroJerkMagMean | Numeric | tBodyGyroJerkMag-mean()
-fBodyAccMeanX | Numeric | fBodyAcc-mean()-X
-fBodyAccMeanY | Numeric | fBodyAcc-mean()-Y
-fBodyAccMeanZ | Numeric | fBodyAcc-mean()-Z
-fBodyAccStdX | Numeric | fBodyAcc-std()-X
-fBodyAccStdY | Numeric | fBodyAcc-std()-Y
-fBodyAccStdZ | Numeric | fBodyAcc-std()-Z
-fBodyAccJerkMeanX | Numeric | fBodyAccJerk-mean()-X
-fBodyAccJerkMeanY | Numeric | fBodyAccJerk-mean()-Y
-fBodyAccJerkMeanZ | Numeric | fBodyAccJerk-mean()-Z
-fBodyAccJerkStdX | Numeric | fBodyAccJerk-std()-X
-fBodyAccJerkStdY | Numeric | fBodyAccJerk-std()-Y
-fBodyAccJerkStdZ | Numeric | fBodyAccJerk-std()-Z
-fBodyGyroMeanX | Numeric | fBodyGyro-mean()-X
-fBodyGyroMeanY | Numeric | fBodyGyro-mean()-Y
-fBodyGyroMeanZ | Numeric | fBodyGyro-mean()-Z
-fBodyGyroStdX | Numeric | fBodyGyro-std()-X
-fBodyGyroStdY | Numeric | fBodyGyro-std()-Y
-fBodyGyroStdZ | Numeric | fBodyGyro-std()-Z
-fBodyAccMagMean | Numeric | fBodyAccMag-mean()
-fBodyBodyAccJerkMagMean | Numeric | fBodyBodyAccJerkMag-mean()
-fBodyBodyGyroMagMean | Numeric | fBodyBodyGyroMag-mean()
-fBodyBodyGyroJerkMagMean | Numeric | fBodyBodyGyroJerkMag-mean()
-angletBodyAccMeanGravity | Numeric | angle(tBodyAccMean,gravity)
-angletBodyAccJerkMeanGravityMean | Numeric | angle(tBodyAccJerkMean),gravityMean)
-angletBodyGyroMeanGravityMean | Numeric | angle(tBodyGyroMean,gravityMean)
-angletBodyGyroJerkMeanGravityMean | Numeric | angle(tBodyGyroJerkMean,gravityMean)
-angleXGravityMean | Numeric | angle(X,gravityMean)
-angleYGravityMean | Numeric | angle(Y,gravityMean)
-angleZGravityMean | Numeric | angle(Z,gravityMean)
+tBodyAccMeanX | Numeric | tBodyAcc-mean()-X -- the average mean per subject-activity
+tBodyAccMeanY | Numeric | tBodyAcc-mean()-Y -- the average mean per subject-activity 
+tBodyAccMeanZ | Numeric | tBodyAcc-mean()-Z -- the average mean per subject-activity
+tBodyAccStdX | Numeric | tBodyAcc-std()-X -- the average standard deviation per subject-activity
+tBodyAccStdY | Numeric | tBodyAcc-std()-Y -- the average standard deviation per subject-activity
+tBodyAccStdZ | Numeric | tBodyAcc-std()-Z -- the average standard deviation per subject-activity
+tGravityAccMeanX | Numeric | tGravityAcc-mean()-X -- the average mean per subject-activity
+tGravityAccMeanY | Numeric | tGravityAcc-mean()-Y -- the average mean per subject-activity
+tGravityAccMeanZ | Numeric | tGravityAcc-mean()-Z -- the average mean per subject-activity
+tGravityAccStdX | Numeric | tGravityAcc-std()-X -- the average standard deviation per subject-activity
+tGravityAccStdY | Numeric | tGravityAcc-std()-Y -- the average standard deviation per subject-activity
+tGravityAccStdZ | Numeric | tGravityAcc-std()-Z -- the average standard deviation per subject-activity
+tBodyAccJerkMeanX | Numeric | tBodyAccJerk-mean()-X -- the average mean per subject-activity
+tBodyAccJerkMeanY | Numeric | tBodyAccJerk-mean()-Y -- the average mean per subject-activity
+tBodyAccJerkMeanZ | Numeric | tBodyAccJerk-mean()-Z -- the average mean per subject-activity
+tBodyAccJerkStdX | Numeric | tBodyAccJerk-std()-X -- the average standard deviation per subject-activity
+tBodyAccJerkStdY | Numeric | tBodyAccJerk-std()-Y -- the average standard deviation per subject-activity
+tBodyAccJerkStdZ | Numeric | tBodyAccJerk-std()-Z -- the average standard deviation per subject-activity
+tBodyGyroMeanX | Numeric | tBodyGyro-mean()-X -- the average mean per subject-activity
+tBodyGyroMeanY | Numeric | tBodyGyro-mean()-Y -- the average mean per subject-activity
+tBodyGyroMeanZ | Numeric | tBodyGyro-mean()-Z -- the average mean per subject-activity
+tBodyGyroStdX | Numeric | tBodyGyro-std()-X -- the average standard deviation per subject-activity
+tBodyGyroStdY | Numeric | tBodyGyro-std()-Y -- the average standard deviation per subject-activity
+tBodyGyroStdZ | Numeric | tBodyGyro-std()-Z -- the average standard deviation per subject-activity
+tBodyGyroJerkMeanX | Numeric | tBodyGyroJerk-mean()-X -- the average mean per subject-activity
+tBodyGyroJerkMeanY | Numeric | tBodyGyroJerk-mean()-Y -- the average mean per subject-activity
+tBodyGyroJerkMeanZ | Numeric | tBodyGyroJerk-mean()-Z -- the average mean per subject-activity
+tBodyGyroJerkStdX | Numeric | tBodyGyroJerk-std()-X -- the average standard deviation per subject-activity
+tBodyGyroJerkStdY | Numeric | tBodyGyroJerk-std()-Y -- the average standard deviation per subject-activity
+tBodyGyroJerkStdZ | Numeric | tBodyGyroJerk-std()-Z -- the average standard deviation per subject-activity
+tBodyAccMagMean | Numeric | tBodyAccMag-mean() -- the average mean per subject-activity
+tGravityAccMagMean | Numeric | tGravityAccMag-mean() -- the average mean per subject-activity
+tBodyAccJerkMagMean | Numeric | tBodyAccJerkMag-mean() -- the average mean per subject-activity
+tBodyGyroMagMean | Numeric | tBodyGyroMag-mean() -- the average mean per subject-activity
+tBodyGyroJerkMagMean | Numeric | tBodyGyroJerkMag-mean() -- the average mean per subject-activity
+fBodyAccMeanX | Numeric | fBodyAcc-mean()-X -- the average mean per subject-activity
+fBodyAccMeanY | Numeric | fBodyAcc-mean()-Y -- the average mean per subject-activity
+fBodyAccMeanZ | Numeric | fBodyAcc-mean()-Z -- the average mean per subject-activity
+fBodyAccStdX | Numeric | fBodyAcc-std()-X -- the average standard deviation per subject-activity
+fBodyAccStdY | Numeric | fBodyAcc-std()-Y -- the average standard deviation per subject-activity
+fBodyAccStdZ | Numeric | fBodyAcc-std()-Z -- the average standard deviation per subject-activity
+fBodyAccJerkMeanX | Numeric | fBodyAccJerk-mean()-X -- the average mean per subject-activity
+fBodyAccJerkMeanY | Numeric | fBodyAccJerk-mean()-Y -- the average mean per subject-activity
+fBodyAccJerkMeanZ | Numeric | fBodyAccJerk-mean()-Z -- the average mean per subject-activity
+fBodyAccJerkStdX | Numeric | fBodyAccJerk-std()-X -- the average standard deviation per subject-activity
+fBodyAccJerkStdY | Numeric | fBodyAccJerk-std()-Y -- the average standard deviation per subject-activity
+fBodyAccJerkStdZ | Numeric | fBodyAccJerk-std()-Z -- the average standard deviation per subject-activity
+fBodyGyroMeanX | Numeric | fBodyGyro-mean()-X -- the average mean per subject-activity
+fBodyGyroMeanY | Numeric | fBodyGyro-mean()-Y -- the average mean per subject-activity
+fBodyGyroMeanZ | Numeric | fBodyGyro-mean()-Z -- the average mean per subject-activity
+fBodyGyroStdX | Numeric | fBodyGyro-std()-X -- the average standard deviation per subject-activity
+fBodyGyroStdY | Numeric | fBodyGyro-std()-Y -- the average standard deviation per subject-activity
+fBodyGyroStdZ | Numeric | fBodyGyro-std()-Z -- the average standard deviation per subject-activity
+fBodyAccMagMean | Numeric | fBodyAccMag-mean() -- the average mean per subject-activity
+fBodyBodyAccJerkMagMean | Numeric | fBodyBodyAccJerkMag-mean() -- the average mean per subject-activity
+fBodyBodyGyroMagMean | Numeric | fBodyBodyGyroMag-mean() -- the average mean per subject-activity
+fBodyBodyGyroJerkMagMean | Numeric | fBodyBodyGyroJerkMag-mean() -- the average mean per subject-activity
+angletBodyAccMeanGravity | Numeric | angle(tBodyAccMean,gravity) -- the average mean per subject-activity
+angletBodyAccJerkMeanGravityMean | Numeric | angle(tBodyAccJerkMean),gravityMean) -- the average mean per subject-activity
+angletBodyGyroMeanGravityMean | Numeric | angle(tBodyGyroMean,gravityMean) -- the average mean per subject-activity
+angletBodyGyroJerkMeanGravityMean | Numeric | angle(tBodyGyroJerkMean,gravityMean) -- the average mean per subject-activity
+angleXGravityMean | Numeric | angle(X,gravityMean) -- the average mean per subject-activity
+angleYGravityMean | Numeric | angle(Y,gravityMean) -- the average mean per subject-activity
+angleZGravityMean | Numeric | angle(Z,gravityMean) -- the average mean per subject-activity
